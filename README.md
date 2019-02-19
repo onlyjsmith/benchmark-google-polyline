@@ -11,8 +11,8 @@ _;tldr_ the `jhermsmeier` one is quicker, but uses `[lat, lng]` instead of GeoJS
 ## Sizes
 
 For 343 coordinate pairs:
-- `raw`: 7135 bytes 
-- `encoded`: 1227 bytes (5.8 times smaller)
+- [`raw`](samples/raw): 7135 bytes 
+- [`encoded`](samples/encoded): 1227 bytes (5.8 times smaller)
 
 
 ## Results
