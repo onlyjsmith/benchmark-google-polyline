@@ -8,6 +8,13 @@ Comparing couple of implementations of a polyline encoding algorithm:
 _;tldr_ the `jhermsmeier` one is quicker, but uses `[lat, lng]` instead of GeoJSON's `[lng, lat]`
 
 
+## Sizes
+
+For 343 coordinate pairs:
+- `raw`: 7135 bytes 
+- `encoded`: 1227 bytes (5.8 times smaller)
+
+
 ## Results
 
 ```
